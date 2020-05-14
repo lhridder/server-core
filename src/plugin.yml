@@ -1,0 +1,22 @@
+main: nl.lucasridder.core.core
+name: server-core
+version: 1.0
+author: LucasRidder
+api-version: 1.15
+
+commands:
+  gamemode:
+    aliases: gm
+    usage: "Usage: /<command> [survival|creative|adventure|spectator|0|1|2|3] ([player])"
+  lobby:
+    aliases: hub
+    usage: "/<command>"
+  lock:
+    aliases: lockdown
+    usage: "/<command> (reden)"
+  spawn:
+    usage: "/<command>"
+  setspawn:
+   usage: "/<command>"
+  fly:
+    usage: "/<command> ([player])"
